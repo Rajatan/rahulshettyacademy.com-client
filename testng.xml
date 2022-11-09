@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="emailID" value="rajatan98@gmail.com"></parameter>
+<parameter name="password" value="Neelammanavar@24"></parameter>
+    <classes>
+      <class name="rahulShettyAcademy.CentralFile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
